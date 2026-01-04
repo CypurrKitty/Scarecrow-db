@@ -3,5 +3,11 @@ __pycache__/
 env/
 venv/
 .DS_Store
+
+# Ignore Data Files
 *.csv
-!generator_script.py
+*.json
+*.geojson
+
+# Exception: Always track the final database
+!surveillance_db.excam
